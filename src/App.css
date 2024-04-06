@@ -1,0 +1,41 @@
+
+.spancont{
+  
+
+ height: 250px;
+ background-color: antiquewhite;
+ padding: 20px;
+ text-align: center;
+}
+.productscont{
+  margin: 20px;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.spancont img{
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+  margin-bottom:3px ;
+}
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination>span{
+ /* background-color: rgb(231, 200, 200);*/
+  width: 15px;
+  margin: 5px;
+  border: 2px solid rgb(137, 129, 129);
+  cursor: pointer;
+  padding: 15px 20px;
+}
+.selectedpage{
+  background-color: green;
+}
+.setdisbled{
+  display: none;
+}
